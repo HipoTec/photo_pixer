@@ -1,0 +1,39 @@
+name: test_app
+description: A new Flutter project.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.0.6 <4.0.0"
+
+dependencies:
+  animated_splash_screen: ^1.3.0
+  animated_text_kit: ^4.2.2
+  cached_network_image: ^3.2.3
+  carousel_slider: ^4.2.1
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  photo_manager: ^2.7.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/onboard.jpg
+    - assets/logo.png
+    - assets/onboard2.jpeg
+    - assets/onboard3.jpeg
+    - assets/logoAPP.png
+
+  # icons:
+  #   android: true
+  #   ios: true
+  #   image_path: "assets/logoAPP.png"
+  #   adaptive_icon_background: "#FFFFFF"
+  #   adaptive_icon_foreground: "assets/icon/foreground.png"
